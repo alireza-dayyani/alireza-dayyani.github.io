@@ -1,0 +1,185 @@
+@media all and (max-width:575px) {}
+
+@media all and (min-width:576px) and (max-width:767px) {}
+
+@media all and (min-width:768px) and (max-width:991px) {}
+
+@media all and (min-width:992px) and (max-width:1199px) {}
+
+@media all and (min-width:1200px) and (max-width:1399px) {}
+
+@media all and (min-width:1400px) {}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.main-panel {
+    /* background-color: #63087d; */
+    background-image: linear-gradient(to bottom right, #301934 20%, #09b55f);
+}
+
+.navbar-brand {
+    top: 0;
+    left: 10px;
+}
+
+.navbar-button-link {
+    right: 6vw;
+}
+
+.navbar-button-bg {
+    left: 0;
+    bottom: 100%;
+    transition: all 400ms cubic-bezier(0.5, 1.6, 0.4, 0.7) 0s;
+}
+
+.navbar-button:hover .navbar-button-bg {
+    bottom: 0;
+}
+
+.navbar-button span {
+    color: white;
+    transition: all 300ms ease 200ms;
+}
+
+.navbar-button:hover span {
+    color: #301934;
+}
+
+.navbar-items::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transition: all 300ms ease 0s;
+    transform-origin: left;
+}
+
+.navbar-items:hover::after {
+    transform: scaleX(1);
+}
+
+.email-icon {
+    right: 0;
+}
+
+.table-parent-img {
+    width: 5vw;
+}
+
+.table-link {
+    color: purple;
+    display: block;
+    width: fit-content;
+    transition: all 200ms ease 0s;
+}
+
+.table-link:hover {
+    transform: scaleX(1.25);
+    transform-origin: left;
+}
+
+.experties-panel:hover {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 3px 10px 0 #301934;
+    transition: all 500ms ease 0s;
+}
+
+.work-item-hover-manager {
+    bottom: 100%;
+    left: 0;
+    z-index: -1;
+    transition: all 300ms ease 0s;
+}
+
+.work-item:hover .work-item-hover-manager {
+    background-color: rgba(48, 25, 52, 0.6);
+    bottom: 0;
+    z-index: 1;
+}
+
+.work-item-text {
+    color: white;
+    left: 10px;
+    bottom: 10px;
+}
+
+.work-button {
+    border: 1px solid #301934;
+}
+
+.work-button-bg {
+    left: 0;
+    bottom: 100%;
+    transition: all 400ms cubic-bezier(0.5, 1.6, 0.4, 0.7) 0s;
+    background-color: #301934;
+}
+
+.work-button:hover .work-button-bg {
+    bottom: 0;
+}
+
+.work-button span {
+    color: #301934;
+    transition: all 300ms ease 150ms;
+}
+
+.work-button:hover span {
+    color: #09b55f;
+}
+
+/* .info-panel{
+    position: absolute;
+    background-image: linear-gradient(to right, #301934, gold);
+} */
+
+.info-panel::before {
+    position: absolute;
+    content: "";
+    width: 74%;
+    height: 70vh;
+    background-image: linear-gradient(to right, #301934, #09b55f);
+    border-radius: 0 90px 90px 0;
+    z-index: -1;
+}
+
+.info-panel-textbox p {
+    color: silver;
+}
+
+#info-panel-text {
+    color: #09b55f;
+}
+
+#html-progress {
+    width: 90%;
+    color: #09b55f;
+    background-color: #301934;
+}
+
+#css-progress {
+    width: 90%;
+    color: #09b55f;
+    background-color: #301934;
+}
+
+#bootstrap-progress {
+    width: 75%;
+    color: #09b55f;
+    background-color: #301934;
+}
+
+#js-progress {
+    width: 20%;
+    color: #09b55f;
+    background-color: #301934;
+}
