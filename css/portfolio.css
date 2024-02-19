@@ -1,4 +1,8 @@
-@media all and (max-width:575px) {}
+@media all and (max-width:575px) {
+    .footer-button {
+        font-size: calc(3vw);
+    }
+}
 
 @media all and (min-width:576px) and (max-width:767px) {}
 
@@ -178,7 +182,40 @@
     width: 20%;
 }
 
-.logo-img-parent{
+.logo-img-parent {
     width: 150px;
     height: 150px;
+}
+
+.footer {
+    background-image: linear-gradient(to top right, #301934, #09b55f);
+    height: 45vh;
+}
+
+.social-icons a {
+    color: #09b55f;
+    border: solid 1px #09b55f;
+    background-color: rgba(9, 181, 95, 0.2);
+}
+
+.social-icons a:hover .test {
+    transform: scaleX(-1);
+    transition: all 200ms ease 0s;
+}
+
+.footer-button {
+    font-size: calc(1vw);
+    background-color: #301934;
+    color: #09b55f;
+    width: 10vw;
+}
+
+.screen-scroll{
+    width: 40px;
+    height: 40px;    
+    transform: scaleX(-1);
+    right: 1vw;
+    bottom: 1vh;
+    background-color: #09b55f;
+    color: #301934;
 }
