@@ -71,6 +71,21 @@
     transform: scaleX(1);
 }
 
+.blog-subitems {
+    width: 10vw;
+    color: #301934;
+    background-color: #09b55f;
+    transform: scaleY(0);
+    opacity: 0;
+    transition: all 400ms ease 0s;
+    transform-origin: top;
+}
+
+#blog:hover .blog-subitems{
+    transform: scaleY(1);
+    opacity: 1;
+}
+
 .email-icon {
     right: 0;
 }
@@ -210,9 +225,9 @@
     width: 10vw;
 }
 
-.screen-scroll{
+.screen-scroll {
     width: 40px;
-    height: 40px;    
+    height: 40px;
     transform: scaleX(-1);
     right: 1vw;
     bottom: 1vh;
