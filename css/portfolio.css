@@ -160,26 +160,25 @@
     color: #09b55f;
 }
 
-#html-progress {
-    width: 90%;
+.progress-bar {
     color: #09b55f;
     background-color: #301934;
 }
 
+#html-progress,
 #css-progress {
     width: 90%;
-    color: #09b55f;
-    background-color: #301934;
 }
 
 #bootstrap-progress {
     width: 75%;
-    color: #09b55f;
-    background-color: #301934;
 }
 
 #js-progress {
     width: 20%;
-    color: #09b55f;
-    background-color: #301934;
+}
+
+.logo-img-parent{
+    width: 150px;
+    height: 150px;
 }
