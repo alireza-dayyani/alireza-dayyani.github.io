@@ -1,18 +1,61 @@
 @media all and (max-width:575px) {
-    .footer-button {
+    /* .footer-button {
         font-size: calc(3vw);
+    } */
+    *{
+        font-size: calc(1vw + 7px);
+    }
+    .email-container{
+        position: static;
+    }
+    .js-small-fix{
+        color: white;
     }
 }
 
-@media all and (min-width:576px) and (max-width:767px) {}
+@media all and (min-width:576px) and (max-width:767px) {
+    .email-container{
+        position: absolute;
+    }
+    .js-small-fix{
+        color: #09b55f;
+    }
+}
 
-@media all and (min-width:768px) and (max-width:991px) {}
+@media all and (min-width:768px) and (max-width:991px) {
+    .email-container{
+        position: absolute;
+    }
+    .js-small-fix{
+        color: white;
+    }
+}
 
-@media all and (min-width:992px) and (max-width:1199px) {}
+@media all and (min-width:992px) and (max-width:1199px) {
+    .email-container{
+        position: absolute;
+    }
+    .js-small-fix{
+        color: white;
+    }
+}
 
-@media all and (min-width:1200px) and (max-width:1399px) {}
+@media all and (min-width:1200px) and (max-width:1399px) {
+    .email-container{
+        position: absolute;
+    }
+    .js-small-fix{
+        color: white;
+    }
+}
 
-@media all and (min-width:1400px) {}
+@media all and (min-width:1400px) {
+    .email-container{
+        position: absolute;
+    }    .js-small-fix{
+        color: white;
+    }
+}
 
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -24,9 +67,24 @@
 }
 
 .main-panel {
-    /* background-color: #63087d; */
     background-image: linear-gradient(to bottom right, #301934 20%, #09b55f);
 }
+
+.top-navbar {
+    background-image: linear-gradient(to right, #301934 40%, #09b55f);
+    z-index: 100;
+}
+
+/* .top-navbar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    background-image: linear-gradient(to bottom right, #301934 20%, #09b55f);
+    z-index: -100;
+} */
 
 .navbar-brand {
     top: 0;
@@ -81,14 +139,20 @@
     transform-origin: top;
 }
 
-#blog:hover .blog-subitems{
+#blog:hover .blog-subitems {
     transform: scaleY(1);
     opacity: 1;
 }
 
-.email-icon {
+.email-container{
+    width: 40px;
+    height: 40px;
     right: 0;
+    padding: 30px;
 }
+/* .email-icon {
+    padding: 300px;
+} */
 
 .table-parent-img {
     width: 5vw;
@@ -156,6 +220,9 @@
     color: #09b55f;
 }
 
+.my-mail{
+    word-wrap: break-word;
+}
 /* .info-panel{
     position: absolute;
     background-image: linear-gradient(to right, #301934, gold);
