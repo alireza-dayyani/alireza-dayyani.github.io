@@ -1,58 +1,64 @@
 @media all and (max-width:575px) {
-    /* .footer-button {
-        font-size: calc(3vw);
-    } */
-    *{
+    * {
         font-size: calc(1vw + 7px);
     }
-    .email-container{
+
+    .email-container {
         position: static;
     }
-    .js-small-fix{
+
+    .js-small-fix {
         color: white;
     }
 }
 
 @media all and (min-width:576px) and (max-width:767px) {
-    .email-container{
+
+    .email-container {
         position: absolute;
     }
-    .js-small-fix{
+
+    .js-small-fix {
         color: #09b55f;
     }
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
-    .email-container{
+    .email-container {
         position: absolute;
     }
-    .js-small-fix{
+
+    .js-small-fix {
         color: white;
     }
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {
-    .email-container{
+    .email-container {
         position: absolute;
     }
-    .js-small-fix{
+
+    .js-small-fix {
         color: white;
     }
 }
 
 @media all and (min-width:1200px) and (max-width:1399px) {
-    .email-container{
+    .email-container {
         position: absolute;
     }
-    .js-small-fix{
+
+    .js-small-fix {
         color: white;
     }
 }
 
 @media all and (min-width:1400px) {
-    .email-container{
+    .email-container {
         position: absolute;
-    }    .js-small-fix{
+    }
+
+    .js-small-fix {
         color: white;
     }
 }
@@ -71,7 +77,7 @@
 }
 
 .top-navbar {
-    background-image: linear-gradient(to right, #301934 40%, #09b55f);
+    background-image: linear-gradient(to right, #301934 30%, #09b55f);
     z-index: 100;
 }
 
@@ -144,15 +150,12 @@
     opacity: 1;
 }
 
-.email-container{
+.email-container {
     width: 40px;
     height: 40px;
     right: 0;
     padding: 30px;
 }
-/* .email-icon {
-    padding: 300px;
-} */
 
 .table-parent-img {
     width: 5vw;
@@ -220,13 +223,9 @@
     color: #09b55f;
 }
 
-.my-mail{
+.my-mail {
     word-wrap: break-word;
 }
-/* .info-panel{
-    position: absolute;
-    background-image: linear-gradient(to right, #301934, gold);
-} */
 
 .info-panel::before {
     position: absolute;
@@ -243,7 +242,7 @@
 }
 
 #info-panel-text {
-    color: #09b55f;
+    color: goldenrod;
 }
 
 .progress-bar {
@@ -265,13 +264,38 @@
 }
 
 .logo-img-parent {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+}
+
+.tips-badge {
+    background-color: #09b55f;
+}
+
+.news-content {
+    bottom: 10px;
+    left: 25px;
+}
+
+.bg-news {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.news-img-parent img {
+    transition: all 400ms ease 0s;
+}
+
+.test * {
+    margin: 0 10px;
+}
+
+.news-img-parent:hover img {
+    transform: scale(1.1);
 }
 
 .footer {
     background-image: linear-gradient(to top right, #301934, #09b55f);
-    height: 45vh;
+    height: 55vh;
 }
 
 .social-icons a {
@@ -292,6 +316,16 @@
     width: 10vw;
 }
 
+#footer-button-1 {
+    transition: all 300ms ease 0s;
+    background-color: transparent;
+    color: white;
+}
+
+#footer-button-1:hover {
+    color: gold;
+}
+
 .screen-scroll {
     width: 40px;
     height: 40px;
@@ -300,4 +334,16 @@
     bottom: 1vh;
     background-color: #09b55f;
     color: #301934;
+}
+
+.carousel-item {
+    transition: all 300ms ease 0s;
+}
+
+.carousel-item.active {
+    opacity: 1;
+}
+
+.carousel-item {
+    opacity: 0;
 }
