@@ -10,6 +10,10 @@
     .js-py-small-fix {
         color: white;
     }
+
+    .navbar-brand img {
+        height: 5vh;
+    }
 }
 
 @media all and (min-width:576px) and (max-width:767px) {
@@ -26,6 +30,7 @@
 @media all and (min-width:768px) and (max-width:991px) {
     .email-container {
         position: absolute;
+        transform: translateX(-4vw);
     }
 
     .js-py-small-fix {
@@ -36,6 +41,7 @@
 @media all and (min-width:992px) and (max-width:1199px) {
     .email-container {
         position: absolute;
+        transform: translateX(-5vw);
     }
 
     .js-py-small-fix {
@@ -46,6 +52,7 @@
 @media all and (min-width:1200px) and (max-width:1399px) {
     .email-container {
         position: absolute;
+        transform: translateX(-6vw);
     }
 
     .js-py-small-fix {
@@ -56,6 +63,7 @@
 @media all and (min-width:1400px) {
     .email-container {
         position: absolute;
+        transform: translateX(-7vw);
     }
 
     .js-py-small-fix {
@@ -80,17 +88,6 @@
     background-image: linear-gradient(to right, #301934 30%, #09b55f);
     z-index: 100;
 }
-
-/* .top-navbar::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 56px;
-    background-image: linear-gradient(to bottom right, #301934 20%, #09b55f);
-    z-index: -100;
-} */
 
 .navbar-brand {
     top: 0;
@@ -273,7 +270,7 @@
 }
 
 .carousel-item {
-    transition: all 300ms ease 0s;
+    transition: all 600ms ease 0s;
 }
 
 .carousel-item.active {
@@ -293,6 +290,10 @@
     left: 25px;
 }
 
+.news-img-parent:hover .news-p-underline {
+    text-decoration: underline;
+}
+
 .bg-news {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
 }
@@ -300,10 +301,6 @@
 .news-img-parent img {
     transition: all 400ms ease 0s;
 }
-
-/* .test * {
-    margin: 0 10px;
-} */
 
 .news-img-parent:hover img {
     transform: scale(1.1);
@@ -318,12 +315,14 @@
     color: #09b55f;
     border: solid 1px #09b55f;
     background-color: rgba(9, 181, 95, 0.2);
+}
 
+.social-icons-parent a .social-icons {
+    transition: all 200ms ease-in-out 0s;
 }
 
 .social-icons-parent a:hover .social-icons {
     transform: scaleX(-1);
-    transition: all 200ms ease 0s;
 }
 
 .footer-button {
@@ -334,7 +333,7 @@
 }
 
 #footer-button-1 {
-    transition: all 300ms ease 0s;
+    transition: all 400ms ease 0s;
     background-color: transparent;
     color: white;
 }
