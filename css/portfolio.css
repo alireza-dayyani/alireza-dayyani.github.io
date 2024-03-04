@@ -14,16 +14,30 @@
     .navbar-brand img {
         height: 5vh;
     }
+
+    .footer-button {
+        font-size: calc(1vw + 3.5px);
+        background-color: #301934;
+        color: #09b55f;
+        width: 20vw;
+        margin-top: 5px;
+    }
 }
 
 @media all and (min-width:576px) and (max-width:767px) {
-
     .email-container {
         position: absolute;
     }
 
     .js-py-small-fix {
         color: #09b55f;
+    }
+
+    .footer-button {
+        font-size: calc(1vw + 5px);
+        background-color: #301934;
+        color: #09b55f;
+        width: 20vw;
     }
 }
 
@@ -33,9 +47,17 @@
         transform: translateX(-4vw);
     }
 
+    .footer-button {
+        font-size: calc(1vw + 5px);
+        background-color: #301934;
+        color: #09b55f;
+        width: 20vw;
+    }
+
     .js-py-small-fix {
         color: white;
     }
+
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {
@@ -46,6 +68,13 @@
 
     .js-py-small-fix {
         color: white;
+    }
+
+    .footer-button {
+        font-size: calc(1vw + 3.5px);
+        background-color: #301934;
+        color: #09b55f;
+        width: 13vw;
     }
 }
 
@@ -58,6 +87,13 @@
     .js-py-small-fix {
         color: white;
     }
+
+    .footer-button {
+        font-size: calc(1vw + 3.5px);
+        background-color: #301934;
+        color: #09b55f;
+        width: 14vw;
+    }
 }
 
 @media all and (min-width:1400px) {
@@ -68,6 +104,13 @@
 
     .js-py-small-fix {
         color: white;
+    }
+
+    .footer-button {
+        font-size: calc(1vw + 3.5px);
+        background-color: #301934;
+        color: #09b55f;
+        width: 14vw;
     }
 }
 
@@ -221,7 +264,7 @@
 }
 
 .my-mail {
-    word-wrap: break-word;
+    word-wrap: normal;
 }
 
 .info-panel::before {
@@ -308,7 +351,7 @@
 
 .footer {
     background-image: linear-gradient(to top right, #301934, #09b55f);
-    height: 55vh;
+    /* height: 55vh; */
 }
 
 .social-icons-parent a {
@@ -325,12 +368,7 @@
     transform: scaleX(-1);
 }
 
-.footer-button {
-    font-size: calc(1vw);
-    background-color: #301934;
-    color: #09b55f;
-    width: 12vw;
-}
+
 
 #footer-button-1 {
     transition: all 400ms ease 0s;
