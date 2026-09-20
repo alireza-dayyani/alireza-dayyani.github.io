@@ -1,389 +1,251 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alireza Dayyani</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Alireza Dayyani is a .NET backend engineer building reliable APIs, distributed services, and performance-focused systems.">
+    <meta name="theme-color" content="#070812">
+    <meta property="og:title" content="Alireza Dayyani — .NET Backend Engineer">
+    <meta property="og:description" content="APIs, distributed systems, and reliable backend infrastructure built with .NET.">
+    <meta property="og:type" content="website">
+    <title>Alireza Dayyani | .NET Backend Engineer</title>
+    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="/css/portfolio.css" rel="stylesheet">
+    <script src="/js/app.js" defer></script>
 </head>
-
 <body>
-    <div class="container-fluid main-panel">
-        <div class="row pb-5">
-            <nav class="navbar navbar-expand-lg navbar-dark position-fixed top-navbar">
-                <div class="container-fluid">
-                    <a class="position-absolute navbar-brand" href="#"><img class="w-100" src="images/1.png"></a>
-                    <button class="navbar-toggler ms-auto mobile-menu" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                            <li class="nav-item mx-3 navbar-items">
-                                <a class="nav-link text-white" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item mx-3 navbar-items">
-                                <a class="nav-link text-white" href="#">Work</a>
-                            </li>
-                            <li class="nav-item mx-3 navbar-items">
-                                <a class="nav-link text-white" href="#">Service</a>
-                            </li>
-                            <li class="nav-item mx-3 navbar-items" id="blog">
-                                <a class="nav-link text-white" href="#">Blog</a>
-                                <ol class="list-unstyled position-absolute my-2 p-2 blog-subitems">
-                                    <li><a class="text-decoration-none text-white" href="#">Blog</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Blog Details</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Elements</a></li>
-                                </ol>
-                            </li>
-                            <li class="nav-item mx-3 navbar-items">
-                                <a class="nav-link text-white" href="#">Contact</a>
-                            </li>
-                        </ul>
-                        <a class="text-decoration-none position-absolute navbar-button-link" href="#">
-                            <div
-                                class="d-none d-lg-block position-relative rounded-pill border border-white overflow-hidden px-4 py-2 navbar-button">
-                                <div class="position-absolute bg-white w-100 h-100 navbar-button-bg"></div>
-                                <span class="position-relative z-1">Let's Talk</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="row mt-5 mx-auto d-flex align-items-center w-75">
-            <div class="col-12 col-sm-4">
-                <div class="w-100 h-100 border border-2 border-white rounded-circle p-1 img-ring"><img
-                        class=" border border-1 border-white w-100 rounded-circle" src="images/2.jpg"></div>
-            </div>
-            <div class="col-12 col-sm-8">
-                <h2 class="text-white ms-5">My name is Alireza Dayyani.</h2>
-                <h4 class="text-white ms-5">Web Design and Data Science</h4>
-                <h6 class="text-white ms-5">Note: When I made this portfolio, I didn't learn JS yet.</h6>
-            </div>
-        </div>
-        <div class="row w-75 mx-auto py-5">
-            <div class="col-12 col-sm-4 d-flex flex-column my-3"><span class="h5 text-white">Design for</span><span
-                    class="h4 text-white">Web and Mobile</span></div>
-            <div class="col-12 col-sm-4 d-flex flex-column my-3"><span class="h5 text-white">Phone</span><span
-                    class="h4 text-white">+98-912-588-9146</span></div>
-            <div class="col-12 col-sm-4 d-flex flex-column my-3">
-                <span class="h5 text-white text-start text-sm-end">Drop your message</span>
-                <span class="h4 text-white text-start text-sm-end my-mail">
-                    alirezadayyani9978<wbr>@<wbr>gmail<wbr>.com
-                </span>
-                <div
-                    class="d-flex justify-content-center align-items-center rounded-circle border border-white border-2 me-sm-3 email-container">
-                    <i class="bi bi-envelope-open text-white fs-1 email-icon"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container mt-5">
-        <div class="row my-5"><span class="h1">My Experties</span></div>
-        <div class="row">
-            <div
-                class="col-12 col-sm-6 border-bottom border-end px-3 py-4 d-flex flex-column justify-content-between bg-body-secondary experties-panel">
-                <div class="table-parent-img"><img src="images/table1.svg" class="w-100"></div><span class="h4">HTML5
-                    and CSS3</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam similique ad error architecto voluptas
-                    dolorem debitis beatae id repudiandae omnis, non recusandae aliquid consequatur ex nesciunt
-                    laudantium esse neque ab.</p>
-                <a href="#" class="table-link">This link takes you to the top</a>
-            </div>
-            <div
-                class="col-12 col-sm-6 border-bottom px-3 py-4 d-flex flex-column justify-content-between bg-body-secondary experties-panel">
-                <div class="table-parent-img"><img src="images/table2.svg" class="w-100"></div><span
-                    class="h4">Bootstrap 5</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam similique ad error architecto voluptas
-                    dolorem debitis beatae id repudiandae omnis, non recusandae aliquid consequatur ex nesciunt
-                    laudantium esse neque ab.</p>
-                <a href="#" class="table-link">This link takes you to the top</a>
-            </div>
-            <div
-                class="col-12 col-sm-6 border-end px-3 py-4 d-flex flex-column justify-content-between bg-body-secondary experties-panel">
-                <div class="table-parent-img"><img src="images/table3.svg" class="w-100"></div><span
-                    class="h4">JavaScript</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam similique ad error architecto voluptas
-                    dolorem debitis beatae id repudiandae omnis, non recusandae aliquid consequatur ex nesciunt
-                    laudantium esse neque ab.</p>
-                <a href="#" class="table-link">This link takes you to the top</a>
-            </div>
-            <div
-                class="col-12 col-sm-6 px-3 py-4 d-flex flex-column justify-content-between bg-body-secondary experties-panel">
-                <div class="table-parent-img"><img src="images/table4.svg" class="w-100"></div><span
-                    class="h4">Python</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam similique ad error architecto voluptas
-                    dolorem debitis beatae id repudiandae omnis, non recusandae aliquid consequatur ex nesciunt
-                    laudantium esse neque ab.</p>
-                <a href="#" class="table-link">This link takes you to the top</a>
-            </div>
-        </div>
-        <div class="row my-5"><span class="h1">My Works</span></div>
-        <div class="row my-5">
-            <div class="col-12 col-sm-6 my-4 my-sm-0">
-                <div class="position-relative w-100 h-100 overflow-hidden work-item"><img class="w-100"
-                        src="images/3.png">
-                    <div class="position-absolute w-100 h-100 work-item-hover-manager"><span
-                            class="position-absolute work-item-text">This is my Huawei webpage practice project</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 my-4 my-sm-0">
-                <div class="position-relative w-100 h-100 overflow-hidden work-item"><img class="w-100"
-                        src="images/4.png">
-                    <div class="position-absolute w-100 h-100 work-item-hover-manager"><span
-                            class="position-absolute work-item-text">This is my samsung grid modeling project</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row bg-danger-subtle">
-            <div class="col-3 mx-auto d-flex justify-content-center">
-                <a class="text-decoration-none position-absolute" href="#">
-                    <div class="d-none d-lg-block position-relative rounded-pill overflow-hidden px-4 py-2 work-button">
-                        <div class="position-absolute w-100 h-100 work-button-bg"></div>
-                        <span class="position-relative z-1">More Work</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <br><br><br>
-    </div>
-    <div class="container-fluid my-5 info-container">
-        <div class="row info-panel">
-            <div class="col-12 col-md-6 info-panel-textbox">
-                <p class="h2 p-3">About Me</p>
-                <p class="h6 p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eos labore
-                    unde dolore quisquam consequuntur repellendus accusamus ipsum quidem consequatur quas soluta
-                    repudiandae sed mollitia nemo facere, beatae nobis nulla?</p>
-                <p class="h2 p-3" id="info-panel-text">"What was the epicurus towards their children; each of these
-                    can have a chain."</p>
-            </div>
-            <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                <div class="info-pair p-2">
-                    <span class="text-white">HTML5</span>
-                    <div class="progress bg-dark-subtle">
-                        <div class="progress-bar" id="html-progress">90%</div>
-                    </div>
-                </div>
-                <div class="info-pair p-2">
-                    <span class="text-white">CSS3</span>
-                    <div class="progress bg-dark-subtle">
-                        <div class="progress-bar" id="css-progress">90%</div>
-                    </div>
-                </div>
-                <div class="info-pair p-2">
-                    <span class="text-white">Bootstrap5</span>
-                    <div class="progress bg-dark-subtle">
-                        <div class="progress-bar" id="bootstrap-progress">75%</div>
-                    </div>
-                </div>
-                <div class="info-pair p-2">
-                    <span class="js-py-small-fix">Python</span>
-                    <div class="progress bg-dark-subtle">
-                        <div class="progress-bar" id="python-progress">60%</div>
-                    </div>
-                </div>
-                <div class="info-pair p-2">
-                    <span class="js-py-small-fix">JavaScript</span>
-                    <div class="progress bg-dark-subtle">
-                        <div class="progress-bar" id="js-progress">75%</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="row mx-auto">
-            <div class="col-6 col-md mb-4 mb-md-0">
-                <div
-                    class="bg-white rounded-3 d-flex justify-content-center align-items-center border border-1 border-black logo-img-parent">
-                    <img src="images/html.svg" class="w-75">
-                </div>
-            </div>
-            <div class="col-6 col-md mb-4 mb-md-0">
-                <div
-                    class="bg-white rounded-3 d-flex justify-content-center align-items-center border border-1 border-black logo-img-parent">
-                    <img src="images/css.png" class="w-75">
-                </div>
-            </div>
-            <div class="col-6 col-md mb-4 mb-md-0">
-                <div
-                    class="bg-white rounded-3 d-flex justify-content-center align-items-center border border-1 border-black logo-img-parent">
-                    <img src="images/bs.webp" class="w-75">
-                </div>
-            </div>
-            <div class="col-6 col-md mb-4 mb-md-0">
-                <div
-                    class="bg-white rounded-3 logo-img- d-flex justify-content-center align-items-center border border-1 border-black logo-img-parent">
-                    <img src="images/python.svg" class="w-75">
-                </div>
-            </div>
-            <div class="col-6 col-md mb-4 mb-md-0">
-                <div
-                    class="bg-white rounded-3 d-flex justify-content-center align-items-center border border-1 border-black logo-img-parent">
-                    <img src="images/js3.png" class="w-75">
-                </div>
-            </div>
-        </div>
-    </div>
-    <br><br><br><br><br>
-    <div class="container">
-        <div class="row"><span class="text-center h1">Client Tetimonials</span></div>
-        <br><br><br><br><br>
-        <div class="row bg-dark-subtle">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active d-flex flex-column align-items-center">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias minima qui enim
-                            expedita quod accusamus voluptatibus magnam, similique, recusandae quisquam deserunt quae
-                            repudiandae. Laborum dolor culpa a autem reiciendis.</p>
-                        <div class="client">
-                            <img src="images/client.webp">
-                            <div class="client-info"><span>Jacson Miller</span><span>Designer @colorlib</span></div>
-                        </div>
-                    </div>
-                    <div class="carousel-item d-flex flex-column align-items-center">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias minima qui enim
-                            expedita quod accusamus voluptatibus magnam, similique, recusandae quisquam deserunt quae
-                            repudiandae. Laborum dolor culpa a autem reiciendis.</p>
-                        <div class="client">
-                            <img src="images/client.webp">
-                            <div class="client-info"><span>Jacson Miller</span><span>Designer @colorlib</span></div>
-                        </div>
-                    </div>
-                    <div class="carousel-item d-flex flex-column align-items-center">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias minima qui enim
-                            expedita quod accusamus voluptatibus magnam, similique, recusandae quisquam deserunt quae
-                            repudiandae. Laborum dolor culpa a autem reiciendis.</p>
-                        <div class="client">
-                            <img src="images/client.webp">
-                            <div class="client-info"><span>Jacson Miller</span><span>Designer @colorlib</span></div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </div>
-    <br><br><br><br><br>
-    <div class="container">
-        <div class="row"><span class="h1">Latest News</span></div>
-        <div class="row me-md-5 my-5">
-            <div
-                class="col-12 col-md-5 offset-md-1 my-2 my-md-0 p-0 rounded-4 position-relative overflow-hidden news-img-parent">
-                <div class="position-absolute z-2 news-content">
-                    <a href="#"><span class="badge border border-1 tips-badge">Tips</span></a>
-                    <span class="text-white">12 March I by Alan</span>
-                    <a class="text-decoration-none" href="#">
-                        <p class="text-white news-p-underline">The Best SPA Salons For Your Relaxation</p>
-                    </a>
-                </div>
-                <div class="position-absolute w-100 h-100 z-1 bg-news"></div>
-                <img src="images/news1.webp" class="w-100 news-img">
-            </div>
-            <div
-                class="col-12 col-md-5 offset-md-1 my-2 my-md-0 p-0 rounded-4 position-relative overflow-hidden news-img-parent">
-                <div class="position-absolute z-2 news-content">
-                    <a href="#"><span class="badge border border-1 tips-badge">Tips</span></a>
-                    <span class="text-white">12 March I by Alan</span>
-                    <a class="text-decoration-none" href="#">
-                        <p class="text-white news-p-underline">The Best SPA Salons For Your Relaxation</p>
-                    </a>
-                </div>
-                <div class="position-absolute w-100 h-100 z-1 bg-news"></div>
-                <img src="images/news2.webp" class="w-100 news-img">
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="container-fluid bg-danger-subtle footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6 py-2">
-                    <div class="footer-content1">
-                        <img src="images/5.png">
-                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi facere
-                            aliquam
-                            culpa amet nam, quam
-                            ipsam perspiciatis, est nobis placeat dolor soluta omnis! Harum neque quis, mollitia dolor
-                            voluptates commodi.</p>
-                        <div class="social-icons-parent">
-                            <a class="d-inline-block rounded-2 p-2" href="#"><i
-                                    class="d-inline-block bi bi-twitter-x social-icons"></i></a>
-                            <a class="d-inline-block rounded-2 p-2" href="#"><i
-                                    class="d-inline-block bi bi-facebook social-icons"></i></a>
-                            <a class="d-inline-block rounded-2 p-2" href="#"><i
-                                    class="d-inline-block bi bi-pinterest social-icons"></i></a>
-                            <a class="d-inline-block rounded-2 p-2" href="#"><i
-                                    class="d-inline-block bi bi-globe social-icons"></i></a>
-                            <a class="d-inline-block rounded-2 p-2" href="#"><i
-                                    class="d-inline-block bi bi-instagram social-icons"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 py-2">
-                    <div
-                        class="row d-flex justify-content-between align-content-center w-75 h-100 mx-lg-auto footer-botton-holder">
-                        <div class="col-12 col-sm-6 my-sm-0"><a href="#"><button
-                                    class="rounded-pill border border-1 border-white px-4 py-2 footer-button"
-                                    id="footer-button-1">Download
-                                    CV</button></a></div>
-                        <div class="col-12 col-sm-6 my-sm-0"><a href="#"><button
-                                    class="rounded-pill px-4 py-2 footer-button">Let's
-                                    Talk</button></a></div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <span class="text-white">Copyright ©2024 All rights reserved | This template is made by me mirrored
-                        after one of the colorlib designs</span>
-                </div>
-                <div class="col-12 col-md-6">
-                    <ul class="mx-auto mb-2 mb-lg-0 list-unstyled d-flex justify-content-center">
-                        <li class="mx-3 navbar-items">
-                            <a class="text-decoration-none text-white" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item mx-3 navbar-items">
-                            <a class="text-decoration-none text-white" href="#">Work</a>
-                        </li>
-                        <li class="nav-item mx-3 navbar-items">
-                            <a class="text-decoration-none text-white" href="#">Service</a>
-                        </li>
-                        <li class="nav-item mx-3 navbar-items">
-                            <a class="text-decoration-none text-white" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item mx-3 navbar-items">
-                            <a class="text-decoration-none text-white" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <a href="#">
-        <div class="position-fixed d-flex justify-content-center align-items-center rounded-circle screen-scroll"><i
-                class="bi bi-arrow-90deg-up"></i></div>
-    </a>
-</body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
+    <div class="page-glow page-glow-one" aria-hidden="true"></div>
+    <div class="page-glow page-glow-two" aria-hidden="true"></div>
+
+    <nav class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand brand-mark" href="#top" aria-label="Alireza Dayyani home">
+                <span class="brand-bracket">{</span> AD <span class="brand-bracket">}</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#capabilities">Capabilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item ms-lg-2"><a class="btn btn-sm btn-outline-glow" href="#contact">Start a conversation</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <section class="hero min-vh-100 d-flex align-items-center" id="top">
+            <div class="container position-relative">
+                <div class="row align-items-center gy-5">
+                    <div class="col-lg-7">
+                        <div class="eyebrow reveal">
+                            <span class="status-dot" aria-hidden="true"></span>
+                            <span id="availability">Backend engineering, end to end</span>
+                        </div>
+                        <h1 class="hero-title reveal reveal-delay-1">
+                            I build backend systems that stay
+                            <span class="gradient-text">fast, clear, and dependable.</span>
+                        </h1>
+                        <p class="hero-copy reveal reveal-delay-2" id="profile-summary">
+                            ASP.NET Core APIs, distributed services, and reliable infrastructure designed around real operational needs.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 reveal reveal-delay-3">
+                            <a class="btn btn-primary-glow btn-lg" href="#work">Explore my work <i class="bi bi-arrow-down-right ms-2"></i></a>
+                            <a class="btn btn-quiet btn-lg" id="github-link" href="https://github.com/alireza-dayyani" target="_blank" rel="noreferrer">GitHub <i class="bi bi-github ms-2"></i></a>
+                        </div>
+                        <div class="hero-meta reveal reveal-delay-3">
+                            <span><i class="bi bi-geo-alt"></i> <span id="location">Tehran, Iran</span></span>
+                            <span><i class="bi bi-cpu"></i> ASP.NET Core / .NET 10</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="system-card reveal reveal-delay-2" aria-label="Backend request pipeline illustration">
+                            <div class="system-card-header">
+                                <span class="window-dots"><i></i><i></i><i></i></span>
+                                <span>request-pipeline.cs</span>
+                                <span class="system-status">HEALTHY</span>
+                            </div>
+                            <div class="pipeline">
+                                <div class="pipeline-node active-node">
+                                    <span class="node-icon"><i class="bi bi-globe2"></i></span>
+                                    <span><strong>REST API</strong><small>Validated request</small></span>
+                                    <span class="node-code">200</span>
+                                </div>
+                                <div class="pipeline-line"><span></span></div>
+                                <div class="pipeline-grid">
+                                    <div class="pipeline-node compact">
+                                        <span class="node-icon purple"><i class="bi bi-diagram-3"></i></span>
+                                        <span><strong>CQRS</strong><small>Clean boundary</small></span>
+                                    </div>
+                                    <div class="pipeline-node compact">
+                                        <span class="node-icon cyan"><i class="bi bi-lightning-charge"></i></span>
+                                        <span><strong>Redis</strong><small>Low latency</small></span>
+                                    </div>
+                                </div>
+                                <div class="pipeline-line"><span></span></div>
+                                <div class="pipeline-node">
+                                    <span class="node-icon amber"><i class="bi bi-database"></i></span>
+                                    <span><strong>Persistence</strong><small>SQL Server / MongoDB</small></span>
+                                    <span class="latency">42ms</span>
+                                </div>
+                            </div>
+                            <div class="system-card-footer">
+                                <span><i class="bi bi-shield-check"></i> observable</span>
+                                <span><i class="bi bi-arrow-repeat"></i> resilient</span>
+                                <span><i class="bi bi-box-seam"></i> deployable</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="metrics-section" aria-label="Career highlights">
+            <div class="container">
+                <div class="metrics-grid" id="metrics" aria-live="polite">
+                    <div class="metric"><strong>4+</strong><span>Years building backend systems</span></div>
+                    <div class="metric"><strong>National</strong><span>Scale of delivered workloads</span></div>
+                    <div class="metric"><strong>API-first</strong><span>Approach to product integration</span></div>
+                    <div class="metric"><strong>24/7</strong><span>Reliability mindset</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-space" id="about">
+            <div class="container">
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-5 reveal">
+                        <div class="portrait-wrap">
+                            <div class="portrait-frame">
+                                <img src="/images/profile.jpg" alt="Alireza Dayyani" width="800" height="800">
+                            </div>
+                            <div class="portrait-note">
+                                <span class="note-icon"><i class="bi bi-braces"></i></span>
+                                <span><small>Current focus</small><strong>Reliable distributed systems</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1 reveal reveal-delay-1">
+                        <span class="section-kicker">01 / About</span>
+                        <h2 class="section-title">I think beyond the endpoint.</h2>
+                        <p class="section-copy">A useful API is more than a controller and a database call. I design around failure modes, data boundaries, observability, and the people who will maintain the system next.</p>
+                        <p class="section-copy">My experience spans enterprise platforms, government integrations, identity verification, cross-network workers, caching, and custom transport protocols.</p>
+                        <div class="principles-grid mt-4">
+                            <div><i class="bi bi-bounding-box-circles"></i><span><strong>Clear boundaries</strong><small>Architecture that explains itself</small></span></div>
+                            <div><i class="bi bi-speedometer2"></i><span><strong>Measured performance</strong><small>Optimize the actual bottleneck</small></span></div>
+                            <div><i class="bi bi-activity"></i><span><strong>Operational insight</strong><small>Make system behavior visible</small></span></div>
+                            <div><i class="bi bi-arrow-repeat"></i><span><strong>Graceful recovery</strong><small>Plan for retries and failure</small></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-space section-surface" id="capabilities">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <span class="section-kicker">02 / Capabilities</span>
+                        <h2 class="section-title mb-0">Tools chosen for the problem.</h2>
+                    </div>
+                    <p>From API contracts to production signals, I work across the backend lifecycle.</p>
+                </div>
+                <div class="row g-3" id="skills" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section class="section-space" id="work">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <span class="section-kicker">03 / Selected work</span>
+                        <h2 class="section-title mb-0">Built where reliability matters.</h2>
+                    </div>
+                    <p>A focused look at a system designed to replace a bottleneck, not decorate it.</p>
+                </div>
+                <div id="projects" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section class="section-space section-surface" id="experience">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <span class="section-kicker">04 / Experience</span>
+                        <h2 class="section-title mb-0">Systems shipped in the real world.</h2>
+                    </div>
+                    <p>Enterprise delivery, public-sector integrations, workflow automation, and contract work.</p>
+                </div>
+                <div class="timeline" id="experience-list" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section class="section-space" id="contact">
+            <div class="container">
+                <div class="contact-panel reveal">
+                    <div class="row g-5 align-items-start">
+                        <div class="col-lg-5">
+                            <span class="section-kicker">05 / Contact</span>
+                            <h2 class="section-title">Have a backend problem worth solving?</h2>
+                            <p class="section-copy">Tell me what you are building, what is slowing it down, or where reliability is becoming difficult.</p>
+                            <div class="contact-links">
+                                <a id="email-link" href="mailto:alirezadayyani9978@gmail.com"><i class="bi bi-envelope"></i><span><small>Email</small><strong id="email-text">alirezadayyani9978@gmail.com</strong></span></a>
+                                <a id="phone-link" href="tel:+989125889146"><i class="bi bi-telephone"></i><span><small>Phone</small><strong id="phone-text">+98 912 588 9146</strong></span></a>
+                                <a id="linkedin-link" class="d-none" href="#" target="_blank" rel="noreferrer"><i class="bi bi-linkedin"></i><span><small>Network</small><strong>LinkedIn</strong></span></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 offset-lg-1">
+                            <form id="contact-form" novalidate>
+                                <div class="row g-3">
+                                    <div class="col-sm-6">
+                                        <label class="form-label" for="contact-name">Name</label>
+                                        <input class="form-control" id="contact-name" name="name" type="text" autocomplete="name" minlength="2" maxlength="80" required>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label class="form-label" for="contact-email">Email</label>
+                                        <input class="form-control" id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label" for="contact-message">Message</label>
+                                        <textarea class="form-control" id="contact-message" name="message" rows="6" minlength="10" maxlength="2000" required></textarea>
+                                    </div>
+                                    <div class="col-12 d-flex flex-wrap align-items-center gap-3">
+                                        <button class="btn btn-primary-glow" type="submit">Send request <i class="bi bi-send ms-2"></i></button>
+                                        <span class="form-status" id="form-status" role="status" aria-live="polite"></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
+            <div>
+                <a class="brand-mark" href="#top"><span class="brand-bracket">{</span> AD <span class="brand-bracket">}</span></a>
+                <p class="mb-0 mt-2">Backend systems with clear contracts and fewer surprises.</p>
+            </div>
+            <div class="footer-meta text-md-end">
+                <span>© <span id="current-year"></span> Alireza Dayyani</span>
+                <span id="api-meta">
+                    <a href="/openapi/v1.json" target="_blank">OpenAPI</a>
+                    <a href="/health" target="_blank">Health</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
 </html>
