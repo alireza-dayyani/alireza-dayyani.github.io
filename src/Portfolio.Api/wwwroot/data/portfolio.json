@@ -1,0 +1,120 @@
+{
+  "profile": {
+    "name": "Alireza Dayyani",
+    "title": ".NET Backend Engineer",
+    "location": "Tehran, Iran",
+    "email": "alirezadayyani9978@gmail.com",
+    "phone": "+98 912 588 9146",
+    "summary": "Backend software engineer with 4+ years of experience building scalable ASP.NET Core applications, REST APIs, distributed services, and performance-focused backend systems. I care about clean boundaries, predictable behavior, and infrastructure that stays reliable under real workloads.",
+    "githubUrl": "https://github.com/alireza-dayyani",
+    "linkedInUrl": null,
+    "availability": "Open to backend engineering opportunities"
+  },
+  "metrics": [
+    { "value": "4+", "label": "Years building backend systems" },
+    { "value": "National", "label": "Scale of delivered workloads" },
+    { "value": "API-first", "label": "Approach to product integration" },
+    { "value": "24/7", "label": "Reliability mindset" }
+  ],
+  "skills": [
+    {
+      "category": "Backend engineering",
+      "items": ["C#", "ASP.NET Core", ".NET Framework", "REST APIs", "EF Core", "ADO.NET", "Worker Services"]
+    },
+    {
+      "category": "Architecture",
+      "items": ["Clean Architecture", "CQRS", "SOLID", "Dependency Injection", "Repository Pattern", "DDD fundamentals"]
+    },
+    {
+      "category": "Data & caching",
+      "items": ["SQL Server", "MongoDB", "Redis", "Query optimization", "Caching strategies"]
+    },
+    {
+      "category": "Distributed systems",
+      "items": ["UDP", "MessagePack", "Request correlation", "Retries", "Acknowledgements", "Custom transport protocols"]
+    },
+    {
+      "category": "Delivery & operations",
+      "items": ["Docker", "Docker Compose", "Linux", "IIS", "Kestrel", "Git", "Swagger / OpenAPI", "Postman", "WebDAV"]
+    },
+    {
+      "category": "Observability",
+      "items": ["Prometheus", "Grafana", "Loki", "Jaeger"]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Backend Developer (.NET Core)",
+      "company": "Asr Fanavari Danesh Engineering Consultants",
+      "location": "Tehran, Iran",
+      "start": "Mar 2026",
+      "end": "Present",
+      "summary": "Enterprise API development and technical consulting for organizational software platforms.",
+      "achievements": [
+        "Develop and maintain RESTful APIs and backend services with ASP.NET Core, C#, SQL Server, and Redis.",
+        "Support enterprise systems with an emphasis on performance, reliability, and clean architecture."
+      ]
+    },
+    {
+      "role": ".NET Backend Developer / ASP.NET Core Developer",
+      "company": "General Inspection Organization of Iran (GIOI)",
+      "location": "Tehran, Iran",
+      "start": "Sep 2024",
+      "end": "Mar 2026",
+      "summary": "High-load government systems, national integrations, and secure cross-network processing.",
+      "achievements": [
+        "Built enterprise APIs with ASP.NET Core, SQL Server, and Redis for national-scale workloads.",
+        "Integrated SHAHKAR identity verification, National ID validation, judiciary e-notification, and Central Bank data-matching services.",
+        "Designed Worker Services for secure file processing and synchronization across distributed environments.",
+        "Improved maintainability and throughput through SQL optimization, Redis caching, Clean Architecture, and CQRS."
+      ]
+    },
+    {
+      "role": ".NET Backend Developer",
+      "company": "Tehran International Complex (Tandis)",
+      "location": "Tehran, Iran",
+      "start": "Dec 2023",
+      "end": "Aug 2024",
+      "summary": "Backend features, internal integrations, and workflow automation for enterprise applications.",
+      "achievements": [
+        "Developed ASP.NET Core features and internal REST APIs while optimizing SQL Server queries.",
+        "Automated organizational workflows with Bizagi BPMS and maintained .NET Framework and .NET Core services."
+      ]
+    },
+    {
+      "role": "Freelance .NET Developer",
+      "company": "Freelance / Contract",
+      "location": "Tehran, Iran",
+      "start": "2022",
+      "end": "2023",
+      "summary": "Custom backend and document-management solutions for contract clients.",
+      "achievements": [
+        "Delivered SQL Server systems with EF Core and ADO.NET plus Word-to-PDF and WebDAV extensions.",
+        "Built process automation tooling and backend components for e-commerce workflows."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "tir-transport-layer",
+      "name": "Tir Transport Layer",
+      "eyebrow": "Distributed systems / networking",
+      "description": "A high-performance UDP transport layer designed to replace a legacy protocol and improve throughput and scalability for distributed backend communication.",
+      "highlights": [
+        "Request correlation and acknowledgement flow",
+        "Retry and reliability mechanisms",
+        "Compact MessagePack serialization",
+        "Designed for predictable distributed communication"
+      ],
+      "technologies": ["C#", ".NET", "UDP", "MessagePack", "Distributed Systems"]
+    }
+  ],
+  "education": [
+    { "qualification": "B.Sc. in Architecture", "institution": "Garmsar University" },
+    { "qualification": "Diploma in Mathematics", "institution": "NODET (Tizhooshan)" }
+  ],
+  "languages": [
+    { "name": "Persian", "proficiency": "Native" },
+    { "name": "English", "proficiency": "Professional / Intermediate+" }
+  ]
+}
